@@ -11,8 +11,7 @@ import { SolflareWalletAdapter } from '@solana/wallet-adapter-solflare';
 import { BackpackWalletAdapter } from '@solana/wallet-adapter-backpack';
 
 
-// Default styles that can be overridden by your app
-require('@solana/wallet-adapter-react-ui/styles.css');
+// Styles are now imported globally in globals.css
 
 type Props = {
     children: ReactNode;
